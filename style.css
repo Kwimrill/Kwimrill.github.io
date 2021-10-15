@@ -300,3 +300,6 @@ button {
 .col-2 {
   margin-bottom: 1rem;
 }
+::-webkit-scrollbar { 
+  display: none; 
+  }
