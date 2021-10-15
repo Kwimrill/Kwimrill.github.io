@@ -60,6 +60,11 @@ p {
   line-height: 45px;
   margin: 50px 100px;
 }
+.col-2 h4 {
+  font-size: 50px;
+  line-height: 45px;
+  margin: 50px 100px;
+}
 .header .row {
   margin-top: 70px;
 }
@@ -69,14 +74,12 @@ p {
 .col-3 {
   flex-basis: 30%;
   min-width: 250px;
-  margin-bottom: 30px;
 }
 .col-3 img {
   width: 100%;
 }
 .col-3 {
-  flex-basis: 25%;
-  padding: 5px;
+  padding: 1px;
   transition: transform 0.5s;
 }
 .col-4 img {
@@ -92,38 +95,20 @@ p {
 .col-3:hover {
   transform: translateY(-5px);
 }
-.footer h3 {
-  color: black;
-}
-.footer-col-1 {
-  min-width: 50px;
-  flex-basis: 90%;
-  text-align: start;
-  color: black;
-  font-size: 12px;
-  padding: 140px;
-}
-ul {
-  list-style-type: none;
-}
-.footer hr {
-  border: none;
-  background: transparent;
-  height: 1px;
-  margin: 20px 0;
-}
 .copyright {
   text-align: center;
   color: black;
   margin-bottom: 5px;
 }
-.menu-icon {
-  width: 28px;
-  margin-left: 20px;
-  display: none;
-}
-.page-btn {
-  margin: 0 auto 80px;
+button {
+  color: black;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 .single-product {
   margin-top: 80px;
@@ -174,7 +159,7 @@ input:focus {
   nav ul li a {
     color: white;
   }
-  .menu-icon {
+  .cart {
     display: block;
     cursor: pointer;
   }
@@ -207,3 +192,24 @@ select {
   font-size: 26px;
   line-height: 22px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
